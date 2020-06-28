@@ -1,0 +1,9 @@
+Features/Attributes/independent_variables/inputs are named in capitals like X_Train X_Test ..etc
+whereas outputs/labels/dependent_variables are names in lower case letters like labels ..etc
+
+
+packages
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+
+https://archive.ics.uci.edu/ml/datasets/Car+Evaluation car data set

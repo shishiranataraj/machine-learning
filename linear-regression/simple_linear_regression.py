@@ -24,10 +24,9 @@ y_pred = regression.predict(X_Test)
 plt.scatter(X_Train, Y_Train, color="red")
 plt.plot(X_Train, regression.predict(X_Train), color="blue")
 
-plt.scatter(X_Test, Y_Test, color="green")
-plt.plot(X_Test, regression.predict(X_Test), color="yellow")
+plt.scatter(X_Test, regression.predict(X_Test), color="yellow")
 
 plt.title('Salary vs Experience (Test set)')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
-plt.show()
+plt.show()  
